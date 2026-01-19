@@ -1,0 +1,91 @@
+body {
+    background-color: white;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    text-indent: 20px;
+}
+
+.row {
+    width: 100%;
+    margin-left: 0;
+}
+
+.col {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.marginAdd {
+    display: none;
+}
+
+.mirador-canvas-nav {
+    display: none !important;
+}
+
+
+span.supraAdd {
+    display: inline-block !important;
+    position: relative !important;
+    top: -0.8em !important;           
+    font-size: 0.80em !important;
+    text-decoration: underline !important;
+    line-height: 0;
+    color: #e70a0a;
+}
+
+/* --- 3.b: Toggle Deletions --- */
+#text.hide-del del {
+    display: none !important;
+}
+
+/* --- 3.c: Reading Mode --- */
+#text.reading-mode del {
+    display: none !important;
+}
+
+/* ---span.supraAdd ---*/
+#text.reading-mode span.supraAdd {
+    position: static !important;
+    top: 0 !important;           
+    font-size: 1em !important;    
+    text-decoration: none !important;
+    display: inline !important;  
+    color: #000;
+}
+
+/* --- 3.c: Reading Mode  --- */
+#text.reading-mode span.marginAdd {
+    display: inline !important;    
+    color: #000 !important;        
+    font-style: italic;            
+    margin: 0 5px;                 
+    text-decoration: none !important;
+}
+
+span.circled {
+    display: inline-block !important;
+    border: 1.5px solid #000 !important;
+    border-radius: 50% !important;
+    width: 2em !important;
+    height: 2em !important;
+    line-height: 1.9em !important;
+    text-align: center !important;
+    font-size: 0.9em !important;
+    margin-bottom: 5px !important;
+    font-weight: bold !important;
+}
+
+del {
+    color: #7f9b6e;
+    cursor: help;
+}
